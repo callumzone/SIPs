@@ -1,9 +1,9 @@
 ---
 sccp: 2
 title: Change C Ratio to 750%
-status: Implemented
+status: Approved
 author: Kain Warwick (@kaiynne)
-discussions-to: https://discord.gg/CDTvjHY
+discussions-to: <Discord Channel>
 created: 2019-06-17
 requires: SIP-2
 ---

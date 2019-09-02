@@ -18,13 +18,17 @@ description: >-
   Synthetix Improvement Proposals (SIPs) describe standards for the Synthetix
   platform, including core protocol specifications, client APIs, and contract
   standards.
-url: "https://sips.synthetix.io"
-repository: Synthetixio/SIPs
-twitter_username: synthetix_io
-github_username:  synthetixio
+url: "http://sips.synthetix.io"
+twitter_username: synthetix
+github_username:  synthetix
 header_pages:
- - all-sip.html
- - all-sccp.html
+ - all.html
+ - core.html
+ - networking.html
+ - interface.html
+ - src.html
+ - meta.html
+ - informational.html
 twitter:
   card: summary
   username: synthetix_io
@@ -41,11 +45,6 @@ defaults:
       path: "SIPS"
     values:
       layout: "sip"
-  -
-    scope:
-      path: "SCCP"
-    values:
-      layout: "sccp"
 
 exclude:
   - Gemfile
@@ -55,5 +54,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - sccp-x.md
-  - sip-X.md
+  - eip-X.md
